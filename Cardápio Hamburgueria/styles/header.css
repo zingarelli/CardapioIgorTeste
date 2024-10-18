@@ -1,0 +1,25 @@
+.cabecalho{
+    background-color: #1B1A17;
+}
+
+.cabecalho__titulo{
+    color: #A35709;
+    font-family: "Kanit";
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cabecalho__titulo__texto{
+    padding: 0.5em;
+    font-size: 1em;
+    flex-wrap: wrap;
+    font-family: 'Kanit';
+}
+
+.cabecalho__titulo__texto2{
+    color: white;
+}
+

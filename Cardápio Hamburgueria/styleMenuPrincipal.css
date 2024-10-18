@@ -1,0 +1,38 @@
+@import url("styles/header.css");
+@import url("/styles/lista.css");
+@import url("/styles/rodape.css");
+@import url("/styles/X-Bacon.css");
+
+:root{
+    --poppins: "Poppins";
+    --lora: "Lora";
+    --kanit: "Kanit";
+    --cor-header: rgb(12, 12, 10);
+    --cor-descricao: rgb(129, 131, 134);
+    --laranja: #A35709;
+}
+
+.body{
+    font-family: var(--poppins);
+    background-image: url("/assets/tijolos.jpg");
+    height: 100vh;
+    background-position: center center;
+    flex-wrap: wrap;
+}
+
+.hr{
+    padding: 0;
+    margin: 1em;
+    border-color: var(--cor-descricao);
+}
+
+.cardapio__link{
+    text-decoration: none;
+}
+
+.hr__rodape{
+    padding: 0;
+    margin: 0em 1em;
+    border-color: var(--laranja);
+}
+
